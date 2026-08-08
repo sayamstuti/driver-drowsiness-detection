@@ -132,7 +132,7 @@ This serves as an additional verification layer alongside facial landmark analys
 
 **Example outputs from the desktop application:**
 
-![Alert State](screenshots/alert_cnn.png)
+![Alert State](screenshots/alert_cnn.jpg)
 *Driver alert — EAR, MAR, and CNN predictions (Eye: Open, Mouth: no_yawn) all within normal range.*
 
 ![Drowsy Alert](screenshots/drowsy.jpg)
