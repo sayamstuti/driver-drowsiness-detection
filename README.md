@@ -135,10 +135,10 @@ This serves as an additional verification layer alongside facial landmark analys
 ![Alert State](screenshots/alert.png)
 *Driver alert — EAR, MAR, and CNN predictions (Eye: Open, Mouth: no_yawn) all within normal range.*
 
-![Drowsy Alert](screenshots/drowsy.png)
+![Drowsy Alert](screenshots/drowsy.jpg)
 *Drowsiness detected — CNN confirms Eye: Closed alongside low EAR.*
 
-![Distracted Alert](screenshots/distracted.png)
+![Distracted Alert](screenshots/distracted.jpg)
 *Distraction detected — head yaw angle exceeds threshold.*
 
 ---
