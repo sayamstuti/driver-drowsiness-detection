@@ -128,7 +128,18 @@ The CNN classifies:
 - Yawning
 - Not Yawning
 
-This serves as an additional verification layer alongside facial landmark analysis.
+This serves as an additional verification layer alongside facial landmark analysis. Every 10th frame, the CNN's prediction is cross-checked against the EAR/MAR values before an alert is triggered, reducing false positives.
+
+**Example outputs from the desktop application:**
+
+![Alert State](screenshots/alert.png)
+*Driver alert — EAR, MAR, and CNN predictions (Eye: Open, Mouth: no_yawn) all within normal range.*
+
+![Drowsy Alert](screenshots/drowsy.png)
+*Drowsiness detected — CNN confirms Eye: Closed alongside low EAR.*
+
+![Distracted Alert](screenshots/distracted.png)
+*Distraction detected — head yaw angle exceeds threshold.*
 
 ---
 
